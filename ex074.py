@@ -1,0 +1,10 @@
+from random import randint
+a = randint(1,10)
+b = randint(1,10)
+c = randint(1,10)
+d = randint(1,10)
+e = randint(1,10)
+sorteio = (a,b,c,d,e)
+print(f"Os valores sorteados foram:{sorteio}")
+print(f"O maior valor sorteado é {max(sorteio)}")
+print(f"O Menor valor sorteado é {min(sorteio)}")

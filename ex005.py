@@ -1,0 +1,5 @@
+print("\033[33m","xx"*20,"\033[m")
+print("\033[33m","SUCESSOR E ANTECESSOR","\033[m")
+print("\033[33m","xx"*20,"\033[m")
+n = int(input("Digite um número:"))
+print("Analisando o valor {}, o Sucessor do número digitado é {} e seu antecessor é {}.".format(n,n+1,n-1))
